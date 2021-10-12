@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants_FileSize.cs" />
+    <Compile Include="Constants_FileVersion.cs" />
+    <Compile Include="FileDetails_Factory.cs" />
+    <Compile Include="FileSize.cs" />
+    <Compile Include="FileVersion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validations_FileSize.cs" />
+    <Compile Include="Validations_FileVersion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
